@@ -207,10 +207,10 @@ class ModelTrainer:
 
 def main():
     # Definir rutas y clases
-    TRAIN_IMAGES_DIR = './DatasetVOC/train'
-    TRAIN_ANNOTATIONS_DIR = './DatasetVOC/train'
-    VAL_IMAGES_DIR = './DatasetVOC/validate'
-    VAL_ANNOTATIONS_DIR = './DatasetVOC/validate'
+    TRAIN_IMAGES_DIR = './DatasetVOC2/train'
+    TRAIN_ANNOTATIONS_DIR = './DatasetVOC2/train'
+    VAL_IMAGES_DIR = './DatasetVOC2/validate'
+    VAL_ANNOTATIONS_DIR = './DatasetVOC2/validate'
     CLASSES = ['Mosca', 'Maleza', 'Mosaico']
     
     # Crear instancia del entrenador

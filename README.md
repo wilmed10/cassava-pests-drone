@@ -137,3 +137,6 @@ python3 drone.py
 ![drone communication system](/assets/sistemaDron.jpg)
 
 Once we execute the operation script on the Raspberry Pi, it is necessary to compile and upload the code `./system/communication.ino` to the ESP8266 or ESP32 board to carry out communication between the drone and the remote user.
+
+
+This project was developed by: Wilson Medina, Melisa Ortiz and Dharien Diaz
