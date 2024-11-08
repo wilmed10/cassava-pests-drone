@@ -123,8 +123,8 @@ chmod +x get_pi_requirements.sh
 ### Drone system
 
 To run the drone's operating code, you need to paste the following scripts into the cloned folder on the Raspberry Pi board:
-*./system/drone.py
-*./system/gpsDrone.py
+- `./system/drone.py`
+- `./system/gpsDrone.py`
 Additionally, you need to paste the pre-trained model (.tflite) into the `Sample_TFLite_model` folder
 
 ```
@@ -135,8 +135,9 @@ python3 drone.py
 ### Communication System
 
 ![drone communication system](/assets/sistemaDron.jpg)
+![drone communication system](/assets/conexionSistema.jpg)
 
 Once we execute the operation script on the Raspberry Pi, it is necessary to compile and upload the code `./system/communication.ino` to the ESP8266 or ESP32 board to carry out communication between the drone and the remote user.
 
 
-This project was developed by: Wilson Medina, Melisa Ortiz and Dharien Diaz
+This project was developed by: **Wilson Medina Arrieta**, **Melisa Ortiz Velez** and **Dharien Diaz Pushaina**
